@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Kustomization
+metadata:
+  name: Kustomization
+  namespace: fes
+resources:
+  - kafka-service.yaml
+  - fe-stack
+  # - ubuntu.yaml
+  - int
+  # - spark-script
+  - vivek
